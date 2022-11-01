@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MatkulActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/card1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_matkul1"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mk1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_matkul1"
+                    android:layout_centerInParent="true"
+                    android:text="KEAMANAN SISTEM INFORMASI"
+                    android:textAllCaps="true"
+                    android:textColor="#131312"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_matkul1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="Keamanan Sistem Informasi Adalah Mata Kuliah  Yang Mempelajari Mengamankan Data Dan Perangkat."
+                    android:layout_below="@+id/iv_matkul1"/>
+
+                <ImageView
+                    android:id="@+id/iv_favorite"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_favorite_24"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/tv_matkul1"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/card2"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/card1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_matkul2"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mk2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_matkul2"
+                    android:layout_centerInParent="true"
+                    android:text="PEMROGRAMAN BASIS DATA"
+                    android:textAllCaps="true"
+                    android:textColor="#131312"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_matkul2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="Pemrograman Basis Data Adalah Mata Kuliah Yang Mempelajari Mengelola Database Dengan Baik."
+                    android:layout_below="@+id/iv_matkul2"/>
+
+                <ImageView
+                    android:id="@+id/iv_favorite2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_favorite_24"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/tv_matkul2"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/card3"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/card2">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_matkul3"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mk3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_matkul3"
+                    android:layout_centerInParent="true"
+                    android:text="PROYEK MANDIRI"
+                    android:textAllCaps="true"
+                    android:textColor="#10100F"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_matkul3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="Proyek Mandiri Adalah Mata Kuliah Dengan Tugas Proyek Yang Diselesaikan Per-Kelompok."
+                    android:layout_below="@+id/iv_matkul3"/>
+
+                <ImageView
+                    android:id="@+id/iv_favorite3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_favorite_24"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/tv_matkul3"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/card4"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/card3">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_matkul4"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mk4"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_matkul4"
+                    android:layout_centerInParent="true"
+                    android:text="PEMROGRAMAN BERBASIS MOBILE"
+                    android:textAllCaps="true"
+                    android:textColor="#10100F"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_matkul4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="Proyek Berbasis Mobile Adalah Mata Kuliah Pemrograman Aplikasi Mobile."
+                    android:layout_below="@+id/iv_matkul4"/>
+
+                <ImageView
+                    android:id="@+id/iv_favorite4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_favorite_24"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/tv_matkul4"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/card5"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/card4">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_matkul5"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mk5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_matkul5"
+                    android:layout_centerInParent="true"
+                    android:text="E-BISNIS"
+                    android:textAllCaps="true"
+                    android:textColor="#10100F"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_matkul5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="E-Bisnis Adalah Mata Kuliah Yang Mempelajari Bisnis Di Era Digital."
+                    android:layout_below="@+id/iv_matkul5"/>
+
+                <ImageView
+                    android:id="@+id/iv_favorite5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_favorite_24"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/tv_matkul5"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/card6"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/card5">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_matkul6"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mk6"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_matkul6"
+                    android:layout_centerInParent="true"
+                    android:text="ETIKA DAN HUKUM TI"
+                    android:textAllCaps="true"
+                    android:textColor="#10100F"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_matkul6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="Etika Dan Hukum Teknologi Informasi Adalah Mata Kuliah Yang Mempelajari Etika Yang Baik Ketika Berprofesi."
+                    android:layout_below="@+id/iv_matkul6"/>
+
+                <ImageView
+                    android:id="@+id/iv_favorite6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_baseline_favorite_24"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/tv_matkul6"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".NilaiActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FORM PENILAIAN"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#F1C237"
+        android:textStyle="bold"
+        android:layout_marginBottom="25dp"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Mahasiswa"
+        android:id="@+id/edNama"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Pokok Mahasiswa"
+        android:id="@+id/edNPM"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai Tugas"
+        android:id="@+id/edTugas"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai Kehadiran"
+        android:id="@+id/edKehadiran"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai Ujian Tengah Semester"
+        android:id="@+id/edUTS"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai Ujian Akhir Semester"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/edUAS"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="H I T U N G"
+        android:onClick="hitung"
+        android:id="@+id/bthitung"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nilai Akhir"
+        android:layout_marginTop="5dp"
+        android:textSize="12pt"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/edAkhir"
+        android:inputType="textPersonName"
+        android:textSize="9pt"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nilai Huruf"
+        android:layout_marginTop="5dp"
+        android:textSize="12pt"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/edHuruf"
+        android:inputType="textPersonName"
+        android:textSize="9pt"
+        android:text=""/>
+
+
+</LinearLayout>
